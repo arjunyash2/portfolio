@@ -7,45 +7,51 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Hi, I'm <span class="highlight">Arjun</span></h1>
-        <p>Aspiring Data Analyst | Python Enthusiast | Dashboard Creator</p>
-        <a href="#contact">Contact Me</a>
-    </header>
-    
-    <section id="about">
-        <h2>About Me</h2>
-        <p>MSc in Big Data Analytics graduate with expertise in SQL, Python, and Power BI. I specialize in creating insightful dashboards and performing large-scale data analyses.</p>
+    <!-- Landing Section -->
+    <section id="landing">
+        <div class="intro">
+            <h1>Hi, I'm <span class="highlight">Arjun</span></h1>
+            <p>Data Analyst | Python Enthusiast | Dashboard Creator</p>
+        </div>
+        <div class="photo">
+            <img src="your-photo.jpg" alt="Arjun Shoba Dileep">
+        </div>
     </section>
 
+    <!-- Projects Section -->
     <section id="projects">
         <h2>Projects</h2>
-        <div class="project">
-            <h3>Student Attainment Dashboard</h3>
-            <p>Developed resource usage dashboards tracking 2M records, optimizing resource consumption by 50%.</p>
-        </div>
-        <div class="project">
-            <h3>Real Estate and Crime Analysis</h3>
-            <p>Created a dashboard analyzing crime and housing prices from 30M records.</p>
-        </div>
-        <div class="project">
-            <h3>English Prescribing Data Analysis</h3>
-            <p>Identified high-prescribing regions, recommending £10M annual savings for the NHS.</p>
+        <div class="project-container">
+            <div class="project-card">
+                <img src="project1.jpg" alt="Student Attainment Dashboard">
+                <h3>Student Attainment Dashboard</h3>
+                <p>Optimized resource consumption by 50% tracking 2M records.</p>
+                <a href="https://github.com" target="_blank">View on GitHub</a>
+            </div>
+            <div class="project-card">
+                <img src="project2.jpg" alt="Real Estate and Crime Analysis">
+                <h3>Real Estate and Crime Analysis</h3>
+                <p>Analyzed crime and housing data, reducing housing price by 30%.</p>
+                <a href="https://github.com" target="_blank">View on GitHub</a>
+            </div>
         </div>
     </section>
 
+    <!-- Experience Section -->
     <section id="experience">
-        <h2>Experience</h2>
-        <ul>
-            <li><strong>Data Analyst Intern</strong> | Sheffield Hallam University (2023)</li>
-            <li><strong>Python Developer</strong> | T-Mobile (2021-2022)</li>
-        </ul>
-    </section>
-
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Email: <a href="mailto:arjunyash2@gmail.com">arjunyash2@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/arjunsdileep/" target="_blank">Arjun Shoba Dileep</a></p>
+        <h2>Work Experience</h2>
+        <div class="experience-container">
+            <div class="experience-card">
+                <h3>Data Analyst Intern</h3>
+                <p>Sheffield Hallam University (2023)</p>
+                <p>Developed dashboards to analyze resource consumption and optimize usage.</p>
+            </div>
+            <div class="experience-card">
+                <h3>Python Developer</h3>
+                <p>T-Mobile (2021-2022)</p>
+                <p>Built ETL pipelines and automated processes with Python.</p>
+            </div>
+        </div>
     </section>
 </body>
 </html>
