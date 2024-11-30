@@ -1,28 +1,96 @@
+/* General Styling */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background: #f4f4f4;
-    color: #333;
+    overflow-x: hidden;
 }
-header {
-    background: #333;
-    color: #fff;
+h1, h2 {
     text-align: center;
-    padding: 1rem;
+    margin-bottom: 20px;
 }
 .highlight {
     color: #e67e22;
 }
-section {
-    padding: 2rem;
-    margin: 1rem 0;
+
+/* Landing Section */
+#landing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    height: 100vh;
+    background: #f4f4f4;
 }
-.project {
+.intro {
+    flex: 1;
+    padding: 20px;
+}
+.photo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photo img {
+    max-width: 300px;
+    border-radius: 50%;
+}
+
+/* Projects Section */
+#projects {
     background: #fff;
-    padding: 1rem;
-    margin-bottom: 1rem;
+    padding: 50px;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+.project-container {
+    display: flex;
+}
+.project-card {
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    background: #f9f9f9;
     border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.project-card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+.project-card a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #333;
+    background: #e67e22;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.project-card a:hover {
+    background: #d35400;
+    color: #fff;
+}
+
+/* Experience Section */
+#experience {
+    background: #f4f4f4;
+    padding: 50px;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+.experience-container {
+    display: flex;
+}
+.experience-card {
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
